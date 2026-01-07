@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Billetera 💰</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>💰 Mi Billetera Personal</h1>
+
+    <div class="formulario">
+        <input type="text" id="concepto" placeholder="Ej: Pizza" required>
+        <input type="number" id="monto" placeholder="Ej: 20" required>
+        <button onclick="agregarGasto()">Agregar</button>
+    </div>
+    
+    <h3>Mis Gastos:</h3>
+    <ul id="lista-gastos"></ul>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
