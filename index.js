@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+// Usamos el puerto que nos de la nube (process.env.PORT) O el 3000 si estamos en casa
+const port = process.env.PORT || 3000;
 
 // 1. CONFIGURACIÓN: Servir archivos de la carpeta 'public'
 app.use(express.static('public'));
